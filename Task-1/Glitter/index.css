@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.navbar li{
+    list-style: none;
+    display: flex;
+    text-shadow: 1px 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    font-size: 17px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 100%;
+}
+
+.navbar{
+    border: .1rem  solid;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;  
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.name{
+    text-align: left;
+    margin-left: 12px;
+    text-shadow: 1px 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.body-content >img{
+    width: 33.333%;
+    height: auto;
+    display: inline;
+
+}
+
+#image1 #image2 #image3 {
+    width:150%;
+}
+.body-content{
+    display: flex;
+    justify-content:space-around;
+}
+
+/*.cards:after{
+    
+    display: flex;
+    clear: both;
+}*/
+.card11{ 
+    flex: 1;
+    height: 350px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card12{
+    flex: 1;
+    height: 350px;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card22{
+    flex: 1;
+    height: 350px;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card21{
+    flex: 1;
+    height: 350px;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card11>a,.card12>a{
+    text-decoration: none;
+    color: black;
+}
+.card21>a,.card22>a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card2{ 
+    width: 100%;
+    height: 350px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.makeup{
+    border: 2px  solid;
+    border-radius: 7px;
+    width: 450px;
+    height: 300px;
+}
+.haircare{
+    border: 2px  solid;
+    border-radius: 7px;
+    width: 450px;
+    height: 300px;
+}
+.skincare{
+    border: 2px  solid;
+    border-radius: 7px;
+    width: 450px;
+    height: 300px;
+}
+.combo{
+    border: 2px  solid;
+    border-radius: 7px;
+    width: 450px;
+    height: 300px;
+}
+.footer{
+    text-align: center;
+}
+.about-head,.contact-head{
+    text-shadow: 1px 1px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-content{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-content{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    height: 3px;
+   
+    background-image: linear-gradient(to right,white,#f38bbf,white);
+}
+/*.background{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right,#f793d9,white,#f793d9);
+}*/
+.circle0{
+    height: 60vh;
+    width: 50vw;
+    background-image: linear-gradient(to right,#f793d9,#f793d9);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.circle2{
+    height: 60vh;
+    width: 50vw;
+    background-image: linear-gradient(to right,#f793d9,#f793d9);
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.circle1{
+    height: 60vh;
+    width: 50vw;
+    background-image: linear-gradient(to right,#f793d9,#f793d9);
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.circle3{
+    height: 60vh;
+    width: 50vw;
+    background-image: linear-gradient(to right,#f793d9,#f793d9);
+    position: absolute;
+    top: 300vh;
+    right: 0;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.5;
+}
